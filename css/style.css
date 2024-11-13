@@ -1,0 +1,247 @@
+/* General Styles */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #FFFFFF; /* Light color for better contrast */
+  background: linear-gradient(135deg, #2E004F, #4B0082); /* Dark purple gradient */
+}
+
+.nav_left {
+  padding-left: 100px;
+}
+
+.nav_right {
+  padding-right: 100px;
+}
+
+.pad_left {
+  padding-left: 10px;
+}
+
+.pad_right {
+  padding-right: 10px;
+}
+
+.pad_top {
+  margin-top: 50px;
+  align-items: center;
+}
+
+.top {
+  padding-top: 50px;
+}
+
+.center {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+.img {
+  padding-top: 100px;
+}
+
+.ptext {
+  font-family: Montserrat;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  width: 100%;
+  font-size: 40px;
+  letter-spacing: 8px;
+  color: #FFF;
+  padding-top: 20px;
+}
+
+.block {
+  height: 600px;
+  background-color: #4B0082;
+}
+
+.block2 {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.row2 {
+  padding-top: 50px;
+}
+
+/* About Me Section */
+.about {
+  text-align: center;
+  margin-top: -50px;
+  color: #FFFFFF;
+}
+
+.blue {
+  padding-top: 100px;
+  width: 100%;
+}
+
+.sizing {
+  font-size: 20px;
+}
+
+.me {
+  padding-right: 30px;
+}
+
+.to {
+  padding-left: 30px;
+}
+
+.top1 {
+  padding-top: 130px;
+}
+
+.bottom {
+  padding-bottom: 60px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #6A0DAD; /* Rich purple */
+}
+
+.navbar-brand, .nav-link {
+  color: #f8f8ff !important;
+}
+
+.nav-link:hover {
+  color: #FFD700 !important; /* Gold hover effect */
+}
+
+/* Footer */
+footer {
+  background-color: #4B0082;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  height: 80px;
+  margin-bottom: -30px;
+  width: 100%;
+}
+
+.botm {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.impg {
+  padding-top: 20px;
+}
+
+/* Buttons */
+.btn {
+  background-color: #FFD700; /* Gold */
+  color: #4B0082; /* Purple text */
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #DAA520; /* Darker gold */
+}
+
+/* Card Styles */
+.card {
+  background-color: #4E1A6A; /* Darker purple for contrast */
+  color: #0b0bbb;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #FFD700; /* Gold for titles */
+}
+
+.card-text {
+  color: hsl(146, 100%, 99%);
+}
+
+/* Certifications Section */
+.certification-section {
+  background-color: #2A0A4E; /* Darker purple for the section background */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.certification-section h2 {
+  color: #FFD700; /* Gold color for better visibility */
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.list-group {
+  padding-left: 0;
+}
+
+.list-group-item {
+  background-color: #000000; /* Rich purple for each list item */
+  color: #e7dfdf; /* White text color */
+  font-size: 18px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.list-group-item:hover {
+  background-color: #4B0082; /* Darker purple for hover effect */
+  color: #FFD700; /* Gold text on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .container img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .navbar {
+    padding: 10px;
+  }
+
+  .navbar-brand, .nav-link {
+    font-size: 14px;
+  }
+
+  .card {
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    padding: 8px 15px;
+  }
+
+  .ptext {
+    font-size: 30px; /* Adjust text size for mobile */
+    letter-spacing: 5px;
+  }
+
+  .block {
+    height: auto;
+    padding: 20px;
+  }
+}
